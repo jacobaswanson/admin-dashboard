@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color:brown;
+    grid-area: sidebar;
+}
+
+.header{
+    background-color: blue;
+    grid-area: header;
+}
+
+.content{
+    background-color: aliceblue;
+    grid-area: content;
+}
